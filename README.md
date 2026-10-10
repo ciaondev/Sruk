@@ -1,1 +1,100 @@
-# Sruk
+<p align="center">
+  <img src="icon.png" width="128" alt="Sruk icon">
+</p>
+
+<h1 align="center">스륵뷰 · Sruk</h1>
+<p align="center"><b>사진을 스륵스륵 · Glide through your photos.</b><br>
+가볍고 빠른 Windows 이미지 뷰어 · A light, fast image viewer for Windows</p>
+
+<p align="center"><img src="screenshots/viewer.png" width="820" alt="Sruk viewer"></p>
+
+[한국어](#한국어) · [English](#english)
+
+---
+
+## 한국어
+
+가볍고 빠르고 간편하게 쓸 수 있는 이미지 뷰어를 원해서 만들었습니다. 사진을 열고 넘기고, 고르는 일에 집중했습니다.
+
+### 특징
+
+- **설치 없음:** `sruk.exe` 하나(약 1.9MB, Windows 10/11 64비트). 런타임·DLL 필요 없음.
+- **빠른 넘기기:** Direct2D로 그리고, 앞뒤 사진을 미리 읽어 둡니다.
+- **형식:** JPG, PNG, BMP, GIF·APNG(움직임 재생), TIFF, ICO, 카메라 RAW(CR2·CR3·NEF·ARW·RAF·RW2·DNG 등, LibRaw).
+- **RAW+JPG 짝:** 같은 이름의 RAW와 JPG를 하나로 묶어 보고, F로 서로 전환합니다. 삭제·이동·복사도 함께.
+- **고르기:** 썸네일에서 Ctrl·Shift·끌기로 여러 장 선택, T로 표시, Del(휴지통)·M(이동)·C(복사).
+- **정보 패널:** 히스토그램, 파일 정보, 촬영 정보(카메라·렌즈·노출).
+- **클립보드:** 이미지·파일·경로 복사(단축키 또는 오른쪽 클릭).
+- **단축키 바꾸기:** F1에서 모든 단축키를 보고 기능마다 3개까지 바꿀 수 있습니다.
+- **한국어 / English:** Windows 표시 언어를 따르고, 오른쪽 클릭 → 언어에서 바꿀 수 있습니다.
+
+<p><img src="screenshots/grid.png" width="49%" alt="Thumbnails"> <img src="screenshots/keys.png" width="49%" alt="Shortcuts"></p>
+
+### 내려받기
+
+[Releases](../../releases)에서 **`Sruk-Setup-<버전>.exe`** 를 받아 실행하면 바로 설치됩니다.
+- 관리자 권한 없이 내 계정에만 설치합니다(`%LOCALAPPDATA%\Programs\Sruk`). 시작 메뉴 바로 가기(바탕 화면은 선택)를 만들고, 사진 파일의 [연결 프로그램] 목록에 스륵뷰를 넣습니다. 기본 앱은 바꾸지 않습니다.
+- 지우기: Windows 설정 → 앱 → Sruk. 설정 파일(`%APPDATA%\Sruk`)은 남깁니다.
+- 설치 없이 쓰려면 `Sruk-<버전>-portable.zip`을 받아 `sruk.exe`를 실행하세요.
+- 코드 서명이 없어서 처음 실행할 때 SmartScreen 경고가 뜰 수 있습니다(추가 정보 → 실행).
+
+### 주요 단축키
+
+| 키 | 동작 |
+|---|---|
+| ← → / Space, Backspace / 휠 | 다음·이전 사진 |
+| Tab | 보기 ↔ 썸네일 |
+| Enter, F11 | 전체 화면 |
+| + / -, Ctrl+휠, 더블클릭 | 확대·축소, 창 맞춤 ↔ 100% |
+| I | 정보 패널 |
+| T / Shift+T | 표시 / 표시한 사진만 보기 |
+| Del, M, C | 휴지통, 이동, 복사 |
+| Ctrl+C / Ctrl+Shift+C / Ctrl+Alt+C | 이미지 / 파일 / 경로 복사 |
+| F1 | 단축키 안내·바꾸기 |
+
+### 문의·후원
+
+- 만든 사람: **Ciaon** · 문의 ciaon.dev@gmail.com
+- 스륵뷰는 무료입니다. 유용했다면 커피 한 잔 후원해 주세요.
+  - 국내: [카카오페이 송금](https://qr.kakaopay.com/Ej76DnTlV) (폰으로 아래 QR을 찍어도 됩니다)
+  - 해외: [PayPal](https://paypal.me/SupportCiaon)
+
+<img src="screenshots/kakaopay_qr.png" width="160" alt="카카오페이 송금 QR">
+
+---
+
+## English
+
+Made out of wanting an image viewer that is light, fast and simple. Sruk focuses on just opening, flipping through and picking photos.
+
+### Features
+
+- **No installation:** a single `sruk.exe` (about 1.9 MB, Windows 10/11 x64). No runtimes or DLLs.
+- **Fast flipping:** drawn with Direct2D, with the previous and next photos decoded ahead.
+- **Formats:** JPG, PNG, BMP, GIF/APNG (animated), TIFF, ICO, camera RAW (CR2, CR3, NEF, ARW, RAF, RW2, DNG and more, via LibRaw).
+- **RAW+JPG pairs:** shown as one photo; press F to switch between them. Delete, move and copy handle both files.
+- **Culling:** select many thumbnails with Ctrl, Shift or drag; mark with T; Del (Recycle Bin), M (move), C (copy).
+- **Info panel:** histogram, file details and shooting info (camera, lens, exposure).
+- **Clipboard:** copy the image, the files or the paths (shortcut or right-click).
+- **Custom shortcuts:** press F1 to see every shortcut and assign up to three keys per action.
+- **Korean / English:** follows the Windows display language; change it with right-click → Language.
+
+<p><img src="screenshots/about.png" width="70%" alt="About Sruk"></p>
+
+### Download
+
+Download **`Sruk-Setup-<version>.exe`** from [Releases](../../releases) and run it.
+- Installs for the current user without admin rights (`%LOCALAPPDATA%\Programs\Sruk`), adds a Start menu shortcut (desktop optional), and adds Sruk to "Open with" for photo files. It does not change your default apps.
+- Uninstall from Windows Settings → Apps → Sruk. Settings in `%APPDATA%\Sruk` are kept.
+- Portable: download `Sruk-<version>-portable.zip` and run `sruk.exe`.
+- The installer is not code-signed, so SmartScreen may warn on first run (More info → Run anyway).
+
+### Contact and donations
+
+- Made by **Ciaon** · ciaon.dev@gmail.com
+- Sruk is free. If you find it useful, you can buy me a coffee: [PayPal](https://paypal.me/SupportCiaon) · [KakaoPay](https://qr.kakaopay.com/Ej76DnTlV) (Korea)
+
+## License
+
+Sruk is free to use and share ([LICENSE.txt](LICENSE.txt)).
+It includes [LibRaw](https://www.libraw.org/) 0.21.3 (unmodified, source: https://github.com/LibRaw/LibRaw/tree/0.21.3), used under CDDL-1.0; see [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
