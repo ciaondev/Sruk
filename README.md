@@ -18,7 +18,7 @@
 
 ### 특징
 
-- **설치 없음:** `sruk.exe` 하나(약 1.9MB, Windows 10/11 64비트). 런타임·DLL 필요 없음.
+- **설치 없음:** `sruk.exe` 하나(약 1.9MB, Windows 7 SP1·8·8.1·10·11, 64비트·32비트). 런타임·DLL 필요 없음.
 - **빠른 넘기기:** Direct2D로 그리고, 앞뒤 사진을 미리 읽어 둡니다.
 - **형식:** JPG, PNG, BMP, GIF·APNG(움직임 재생), TIFF, ICO, 카메라 RAW(CR2·CR3·NEF·ARW·RAF·RW2·DNG 등, LibRaw).
 - **RAW+JPG 짝:** 같은 이름의 RAW와 JPG를 하나로 묶어 보고, F로 서로 전환합니다. 삭제·이동·복사도 함께.
@@ -36,7 +36,8 @@
 [Releases](../../releases)에서 **`Sruk-Setup-<버전>.exe`** 를 받아 실행하면 바로 설치됩니다.
 - 관리자 권한 없이 내 계정에만 설치합니다(`%LOCALAPPDATA%\Programs\Sruk`). 시작 메뉴 바로 가기(바탕 화면은 선택)를 만들고, 사진 파일의 [연결 프로그램] 목록에 스륵뷰를 넣습니다. 기본 앱은 바꾸지 않습니다.
 - 지우기: Windows 설정 → 앱 → Sruk. 설정 파일(`%APPDATA%\Sruk`)은 남깁니다.
-- 설치 없이 쓰려면 `Sruk-<버전>-portable.zip`을 받아 `sruk.exe`를 실행하세요.
+- 설치 파일은 64비트·32비트 Windows를 알아서 맞춥니다.
+- 설치 없이 쓰려면 `Sruk-<버전>-portable.zip`(32비트 Windows는 `-portable-32bit.zip`)을 받아 `sruk.exe`를 실행하세요.
 - 코드 서명이 없어서 처음 실행할 때 SmartScreen 경고가 뜰 수 있습니다(추가 정보 → 실행).
 
 ### 주요 단축키
@@ -70,7 +71,7 @@ Made out of wanting an image viewer that is light, fast and simple. Sruk focuses
 
 ### Features
 
-- **No installation:** a single `sruk.exe` (about 1.9 MB, Windows 10/11 x64). No runtimes or DLLs.
+- **No installation:** a single `sruk.exe` (about 1.9 MB, Windows 7 SP1, 8, 8.1, 10, 11; x64 and x86). No runtimes or DLLs.
 - **Fast flipping:** drawn with Direct2D, with the previous and next photos decoded ahead.
 - **Formats:** JPG, PNG, BMP, GIF/APNG (animated), TIFF, ICO, camera RAW (CR2, CR3, NEF, ARW, RAF, RW2, DNG and more, via LibRaw).
 - **RAW+JPG pairs:** shown as one photo; press F to switch between them. Delete, move and copy handle both files.
@@ -88,7 +89,8 @@ Made out of wanting an image viewer that is light, fast and simple. Sruk focuses
 Download **`Sruk-Setup-<version>.exe`** from [Releases](../../releases) and run it.
 - Installs for the current user without admin rights (`%LOCALAPPDATA%\Programs\Sruk`), adds a Start menu shortcut (desktop optional), and adds Sruk to "Open with" for photo files. It does not change your default apps.
 - Uninstall from Windows Settings → Apps → Sruk. Settings in `%APPDATA%\Sruk` are kept.
-- Portable: download `Sruk-<version>-portable.zip` and run `sruk.exe`.
+- The installer picks the 64-bit or 32-bit build to match your Windows.
+- Portable: download `Sruk-<version>-portable.zip` (`-portable-32bit.zip` for 32-bit Windows) and run `sruk.exe`.
 - The installer is not code-signed, so SmartScreen may warn on first run (More info → Run anyway).
 
 ### Contact and donations
