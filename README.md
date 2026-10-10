@@ -27,6 +27,7 @@
 - **클립보드:** 이미지·파일·경로 복사(단축키 또는 오른쪽 클릭).
 - **단축키 바꾸기:** F1에서 모든 단축키를 보고 기능마다 3개까지 바꿀 수 있습니다.
 - **한국어 / English:** Windows 표시 언어를 따르고, 오른쪽 클릭 → 언어에서 바꿀 수 있습니다.
+- **새 버전 알림:** 하루 한 번 GitHub 릴리스를 확인해 알려 주고, [받아서 설치]를 누르면 설치 파일을 받아 SHA-256을 확인한 뒤 설치 화면을 엽니다. 오른쪽 클릭 → 새 버전 자동 확인에서 끌 수 있습니다.
 
 <p><img src="screenshots/grid.png" width="49%" alt="Thumbnails"> <img src="screenshots/keys.png" width="49%" alt="Shortcuts"></p>
 
@@ -56,7 +57,7 @@
 
 - 만든 사람: **Ciaon** · 문의 ciaon.dev@gmail.com
 - 스륵뷰는 무료입니다. 유용했다면 커피 한 잔 후원해 주세요.
-  - 국내: [카카오페이 송금](https://qr.kakaopay.com/Ej76DnTlV) (폰으로 아래 QR을 찍어도 됩니다)
+  - 국내: 카카오페이 (폰으로 아래 QR을 찍어 주세요)
   - 해외: [PayPal](https://paypal.me/SupportCiaon)
 
 <img src="screenshots/kakaopay_qr.png" width="160" alt="카카오페이 송금 QR">
@@ -78,6 +79,7 @@ Made out of wanting an image viewer that is light, fast and simple. Sruk focuses
 - **Clipboard:** copy the image, the files or the paths (shortcut or right-click).
 - **Custom shortcuts:** press F1 to see every shortcut and assign up to three keys per action.
 - **Korean / English:** follows the Windows display language; change it with right-click → Language.
+- **Update notice:** checks the GitHub releases once a day; Download and install fetches the installer, verifies its SHA-256 and opens it. Turn it off with right-click → Check for updates automatically.
 
 <p><img src="screenshots/about.png" width="70%" alt="About Sruk"></p>
 
@@ -92,7 +94,7 @@ Download **`Sruk-Setup-<version>.exe`** from [Releases](../../releases) and run 
 ### Contact and donations
 
 - Made by **Ciaon** · ciaon.dev@gmail.com
-- Sruk is free. If you find it useful, you can buy me a coffee: [PayPal](https://paypal.me/SupportCiaon) · [KakaoPay](https://qr.kakaopay.com/Ej76DnTlV) (Korea)
+- Sruk is free. If you find it useful, you can buy me a coffee: [PayPal](https://paypal.me/SupportCiaon) · KakaoPay (Korea: scan the QR above with your phone)
 
 ## License
 
