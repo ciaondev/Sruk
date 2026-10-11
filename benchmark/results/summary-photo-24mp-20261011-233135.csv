@@ -1,0 +1,3 @@
+﻿"App","N","WindowMs_median","WindowMs_min","WindowMs_max","ReadyMs_median","ReadyMs_min","ReadyMs_max","SrukPresentedMs_median","CpuMs_median","PrivateMB_median","WorkingSetMB_median","PeakWorkingSetMB_median","Window","Client"
+"Sruk","10","105.3","96.3","136","344","309.4","481.5","240.45","453","87.9","107.3","113.35","1763x1180","1748x1142"
+"IrfanView","10","157.8","150.5","197.5","460.65","436.1","577.7","0","453","92.05","110.95","111.15","2352x1688","2337x1630"

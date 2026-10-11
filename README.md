@@ -16,6 +16,10 @@
 
 가볍고 빠르고 간편하게 쓸 수 있는 이미지 뷰어를 원해서 만들었습니다. 사진을 열고 넘기고, 고르는 일에 집중했습니다.
 
+<p><img src="screenshots/promo-intro-ko.png" width="49%" alt="스륵뷰 소개"> <img src="screenshots/promo-features-ko.png" width="49%" alt="스륵뷰 주요 기능"></p>
+
+IrfanView와 같은 조건에서 잰 속도·메모리 자체 측정 결과는 [벤치마크 문서](benchmark/README.md)에 있습니다.
+
 ### 특징
 
 - **설치 없음:** `sruk.exe` 하나(약 1.9MB, Windows 7 SP1·8·8.1·10·11, 64비트·32비트). 런타임·DLL 필요 없음.
@@ -68,6 +72,10 @@
 ## English
 
 Made out of wanting an image viewer that is light, fast and simple. Sruk focuses on just opening, flipping through and picking photos.
+
+<p><img src="screenshots/promo-intro-en.png" width="49%" alt="Sruk overview"> <img src="screenshots/promo-features-en.png" width="49%" alt="Sruk features"></p>
+
+Speed and memory measured side by side with IrfanView (in-house test): see the [benchmark report](benchmark/README.md).
 
 ### Features
 
