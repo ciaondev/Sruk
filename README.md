@@ -35,6 +35,15 @@ IrfanView와 같은 조건에서 잰 속도·메모리 자체 측정 결과는 [
 
 <p><img src="screenshots/grid.png" width="49%" alt="Thumbnails"> <img src="screenshots/keys.png" width="49%" alt="Shortcuts"></p>
 
+### 레퍼런스 보기·비율 측정 (조형·드로잉용)
+
+<p><img src="media/demo-measure-ko.gif" width="49%" alt="비율 측정 시연"> <img src="screenshots/promo-newver-ko.png" width="49%" alt="0.9.6 새 기능: 레퍼런스 보기·비율 측정"></p>
+
+▶ **사용법 영상(2분):** https://youtu.be/KywplfJmm-U
+
+- **비율 측정(U):** 정수리→턱으로 기준선을 그으면 그 길이가 1. 숫자 키로 머리 길이 눈금을 쌓아 몇 등신인지 보고(N으로 4.5 같은 소수), 다른 선은 기준의 몇 배인지 표시. 더블클릭 가로선으로 눈·코·입 높이, D로 같은 길이의 자, Shift+숫자로 등분. 선은 사진마다 저장되고 사진 폴더에는 아무것도 만들지 않습니다.
+- **레퍼런스 보기:** H 좌우 반전, G 흑백, L 가이드(중심선·3분할·격자), K 스포이트(색 코드 복사), [ ] 투명도, P 항상 위, Ctrl+M 미니 창(사진을 끌어 옮김).
+
 ### 내려받기
 
 [Releases](../../releases)에서 **`Sruk-Setup-<버전>.exe`** 를 받아 실행하면 바로 설치됩니다.
@@ -91,6 +100,15 @@ Speed and memory measured side by side with IrfanView (in-house test): see the [
 - **Update notice:** checks the GitHub releases once a day; Download and install fetches the installer, verifies its SHA-256 and opens it. Turn it off with right-click → Check for updates automatically.
 
 <p><img src="screenshots/about.png" width="70%" alt="About Sruk"></p>
+
+### Reference view and proportion measuring (for sculpting and drawing)
+
+<p><img src="media/demo-measure-en.gif" width="49%" alt="Proportion measuring demo"> <img src="screenshots/promo-newver-en.png" width="49%" alt="New in 0.9.6: reference view and proportion measure"></p>
+
+▶ **How-to video (2 min):** https://youtu.be/d2tSrj94jog
+
+- **Proportion measuring (U):** draw a reference line from the top of the head to the chin; its length is 1. Number keys stack head-length ticks to read how many heads tall (N for decimals like 4.5), and other lines show how many references long they are. Double-click for horizontal guides at the eyes, nose and mouth, D for a same-length ruler, Shift+number to divide. Lines are saved per photo; nothing is written to the photo folder.
+- **Reference view:** H mirror, G grayscale, L guides (center, thirds, grid), K eyedropper (copies the color code), [ ] opacity, P always on top, Ctrl+M mini window (drag the photo to move it).
 
 ### Download
 
