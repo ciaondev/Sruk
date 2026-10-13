@@ -44,6 +44,19 @@ IrfanView와 같은 조건에서 잰 속도·메모리 자체 측정 결과는 [
 - **비율 측정(U):** 정수리→턱으로 기준선을 그으면 그 길이가 1. 숫자 키로 머리 길이 눈금을 쌓아 몇 등신인지 보고(N으로 4.5 같은 소수), 다른 선은 기준의 몇 배인지 표시. 더블클릭 가로선으로 눈·코·입 높이, D로 같은 길이의 자, Shift+숫자로 등분. 선은 사진마다 저장되고 사진 폴더에는 아무것도 만들지 않습니다.
 - **레퍼런스 보기:** H 좌우 반전, G 흑백, L 가이드(중심선·3분할·격자), K 스포이트(색 코드 복사), [ ] 투명도, P 항상 위, Ctrl+M 미니 창(사진을 끌어 옮김).
 
+### 사진 고르기 (RAW+JPG)
+
+<p><img src="media/demo-culling-ko.gif" width="70%" alt="RAW+JPG 사진 고르기 시연"></p>
+
+▶ **사진 고르기 영상:** https://youtu.be/PyW0EvnIPAw
+
+- 같은 이름의 RAW와 JPG가 한 장으로 묶여 보입니다(F로 RAW/JPG 전환).
+- I로 히스토그램과 촬영 정보(카메라·렌즈·노출)를 보며 고릅니다.
+- T로 버릴 사진을 표시하고 Shift+T로 표시한 것만 모아 봅니다.
+- Del 한 번이면 RAW와 JPG가 함께 휴지통으로 가고, Ctrl+Z로 한 번에 되살립니다.
+
+짧은 영상(쇼츠): [몇 등신 재기](https://youtube.com/shorts/mkZ82t1-m-Y) · [얼굴 비율](https://youtube.com/shorts/LvnBxrhotoc) · [레퍼런스 단축키 4개](https://youtube.com/shorts/hjewRoDfB50) · [RAW+JPG 정리](https://youtube.com/shorts/Jrp2fy-PTb4) · 영상 목록과 원본 파일은 [media](media/README.md)
+
 ### 내려받기
 
 [Releases](../../releases)에서 **`Sruk-Setup-<버전>.exe`** 를 받아 실행하면 바로 설치됩니다.
@@ -109,6 +122,19 @@ Speed and memory measured side by side with IrfanView (in-house test): see the [
 
 - **Proportion measuring (U):** draw a reference line from the top of the head to the chin; its length is 1. Number keys stack head-length ticks to read how many heads tall (N for decimals like 4.5), and other lines show how many references long they are. Double-click for horizontal guides at the eyes, nose and mouth, D for a same-length ruler, Shift+number to divide. Lines are saved per photo; nothing is written to the photo folder.
 - **Reference view:** H mirror, G grayscale, L guides (center, thirds, grid), K eyedropper (copies the color code), [ ] opacity, P always on top, Ctrl+M mini window (drag the photo to move it).
+
+### Photo culling (RAW+JPG)
+
+<p><img src="media/demo-culling-en.gif" width="70%" alt="RAW+JPG photo culling demo"></p>
+
+▶ **Photo culling video:** https://youtu.be/lWXvpnWAelc
+
+- RAW and JPG files with the same name show as one photo (F switches between them).
+- I shows the histogram and shooting info (camera, lens, exposure) while you choose.
+- T marks rejects; Shift+T shows only the marked photos.
+- One Del sends RAW and JPG to the Recycle Bin together, and Ctrl+Z brings them all back.
+
+Shorts: [How many heads tall](https://youtube.com/shorts/Oo_VIPic9Co) · [Face proportions](https://youtube.com/shorts/3dWYRR7JI2k) · [4 reference keys](https://youtube.com/shorts/_1-sGfZVMSI) · [Cull RAW+JPG](https://youtube.com/shorts/cmSZJX6BgFM) · All videos and source files: [media](media/README.md)
 
 ### Download
 
