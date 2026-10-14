@@ -7,7 +7,7 @@
 | 내용 · Topic | 한국어 | English |
 |---|---|---|
 | 사진 고르기 (RAW+JPG) · Photo culling | https://youtu.be/PyW0EvnIPAw | https://youtu.be/lWXvpnWAelc |
-| 레퍼런스 보기·비율 측정 · Reference view & proportion measuring | https://youtu.be/KywplfJmm-U | https://youtu.be/d2tSrj94jog |
+| 레퍼런스 보기·비율 측정 · Reference view & proportion measuring | https://youtu.be/D62khKbJ-Wg | https://youtu.be/d2tSrj94jog |
 | 쇼츠: 몇 등신 재기 · Shorts: how many heads tall | https://youtube.com/shorts/mkZ82t1-m-Y | https://youtube.com/shorts/Oo_VIPic9Co |
 | 쇼츠: 얼굴 비율 · Shorts: face proportions | https://youtube.com/shorts/LvnBxrhotoc | https://youtube.com/shorts/3dWYRR7JI2k |
 | 쇼츠: 레퍼런스 단축키 4개 · Shorts: 4 reference keys | https://youtube.com/shorts/hjewRoDfB50 | https://youtube.com/shorts/_1-sGfZVMSI |
