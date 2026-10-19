@@ -24,7 +24,7 @@ IrfanView와 같은 조건에서 잰 속도·메모리 자체 측정 결과는 [
 
 - **설치 없음:** `sruk.exe` 하나(약 2.1MB, Windows 7 SP1·8·8.1·10·11, 64비트·32비트). 런타임·DLL 필요 없음.
 - **빠른 넘기기:** Direct2D로 그리고, 앞뒤 사진을 미리 읽어 둡니다.
-- **형식:** JPG, PNG, BMP, GIF·APNG(움직임 재생), TIFF, ICO, 카메라 RAW(CR2·CR3·NEF·ARW·RAF·RW2·DNG 등, LibRaw).
+- **형식:** JPG, PNG, BMP, GIF·APNG(움직임 재생), TIFF, ICO, MPO(3D 카메라: 첫 장 또는 두 장 나란히), 카메라 RAW(CR2·CR3·NEF·ARW·RAF·RW2·DNG 등, LibRaw).
 - **RAW+JPG 짝:** 같은 이름의 RAW와 JPG를 하나로 묶어 보고, F로 서로 전환합니다. 삭제·이동·복사도 함께.
 - **고르기:** 썸네일에서 Ctrl·Shift·끌기로 여러 장 선택, T로 표시, Del(휴지통)·M(이동)·C(복사).
 - **정보 패널:** 히스토그램, 파일 정보, 촬영 정보(카메라·렌즈·노출).
@@ -103,7 +103,7 @@ Speed and memory measured side by side with IrfanView (in-house test): see the [
 
 - **No installation:** a single `sruk.exe` (about 2.1 MB, Windows 7 SP1, 8, 8.1, 10, 11; x64 and x86). No runtimes or DLLs.
 - **Fast flipping:** drawn with Direct2D, with the previous and next photos decoded ahead.
-- **Formats:** JPG, PNG, BMP, GIF/APNG (animated), TIFF, ICO, camera RAW (CR2, CR3, NEF, ARW, RAF, RW2, DNG and more, via LibRaw).
+- **Formats:** JPG, PNG, BMP, GIF/APNG (animated), TIFF, ICO, MPO (3D cameras: first image or side by side), camera RAW (CR2, CR3, NEF, ARW, RAF, RW2, DNG and more, via LibRaw).
 - **RAW+JPG pairs:** shown as one photo; press F to switch between them. Delete, move and copy handle both files.
 - **Culling:** select many thumbnails with Ctrl, Shift or drag; mark with T; Del (Recycle Bin), M (move), C (copy).
 - **Info panel:** histogram, file details and shooting info (camera, lens, exposure).
