@@ -76,7 +76,7 @@ IrfanView와 같은 조건에서 잰 속도·메모리 자체 측정 결과는 [
 | + / -, Ctrl+휠, 더블클릭 | 확대·축소, 창 맞춤 ↔ 100% |
 | I | 정보 패널 |
 | T / Shift+T | 표시 / 표시한 사진만 보기 |
-| Del, M, C | 휴지통, 이동, 복사 |
+| Del, Shift+Del, M, C | 휴지통, 완전히 삭제(묻고 지움), 이동, 복사 |
 | Ctrl+C / Ctrl+Shift+C / Ctrl+Alt+C | 이미지 / 파일 / 경로 복사 |
 | Ctrl+X / Ctrl+C / Ctrl+V (썸네일) | 파일 잘라내기 / 복사 / 붙여넣기 |
 | Ctrl+Shift+N / Ctrl+Alt+N | 새 폴더 / 고른 사진을 새 폴더로 |
